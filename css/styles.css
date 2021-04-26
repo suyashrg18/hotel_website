@@ -1,0 +1,291 @@
+/* Reset */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+
+/* main styling */
+
+
+html,body{
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8em;
+
+}
+
+ a{
+    color: #333;
+    text-decoration: none;
+} 
+
+
+h1,h2,h3{
+  padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* utility */
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.primarytext{
+    color:#f7c08a ;
+}
+
+.desctext{
+font-size: 20px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color:#f7c08a ;
+    color:  #333;
+}
+
+.btnlight{
+    background-color:#f4f4f4 ;
+    color:  #333;
+}
+
+.darkbg {
+    background-color:#333 ;
+    color:  #fff;
+}
+
+.bgligth{
+    background-color:#f4f4f4 ;
+    color:  #333; 
+}
+
+.bgprimary{
+    background-color:#f7c08a ;
+    color:  #333; 
+}
+
+.clr{
+    clear: both;
+}
+
+.largeheading{
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+
+/* Padding */
+
+.py1{padding:10px 0;}
+.py2{padding:20px 0;}
+.py3{padding:30px 0;}
+
+/* navbar */
+#navbar {
+    background-color: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#navbar .logo {
+   float: left;
+   padding-top: 20px; 
+}
+
+#navbar ul  {
+    float: right;
+    list-style: none;    
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+#navbar ul li a:hover ,
+#navbar ul li a.current{
+  background: #444;
+  color: #f7c08a;
+}
+
+/* Showcase */
+
+#showcase {
+    background: url('../img//showcase.jpg') no-repeat center center/cover;
+    height: 600px;
+
+}
+
+.showcase-content{
+color: #fff;
+text-align: center;
+padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content h1 {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+/* Home Info */
+
+#homeinfo {
+    height: 400px;
+}
+
+#homeinfo .infoimg {
+    float: left;
+    width: 50%;
+    background: url('../img/photo-1.jpg') no-repeat; 
+    min-height: 100%;
+    }
+
+
+#homeinfo .contentinfo {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;  
+    overflow: hidden;
+  }
+    
+  #homeinfo .contentinfo p{
+  padding-bottom: 20px;
+  }
+
+  /* features */
+
+  .box{
+      float: left;
+      width: 33.33%;
+      padding: 50px;
+      text-align: center;
+  }
+
+ #features .box i {
+     margin-top: 10px;
+  
+ }
+
+ /* About Info */
+
+ #aboutinfo .infoleft{
+     float: left;
+     width: 50%;
+     min-height: 100%;
+ }
+
+
+#aboutinfo .inforight{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#aboutinfo .inforight img{
+    display: block;
+    margin:auto;
+    width: 70%;
+    border-radius: 70%;
+}
+
+ .mainfooter{
+text-align: center;
+background: #444;
+color: #fff;
+padding:20px
+ }
+
+
+ /* testimonials */
+
+ #testimonials{
+     background: url('../img/test-bg.jpg') no-repeat center center/cover;
+     height: 100%;
+     padding-top: 100px;
+ }
+
+ #testimonials .testimonial{
+    padding:20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: 0.9;
+ }
+
+ #testimonials h2{
+     color: #fff;
+     text-align: center;
+     padding-bottom: 40px;
+ }
+
+ #testimonials .testimonial img{
+    width: 90px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 45px
+ }
+
+ /* Contact form */
+
+ #contactform .formgroup{
+     margin-bottom: 20px;
+ }
+
+ #contactform .formgroup label{
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+#contactform input,
+#contactform textarea {
+    width: 100%;
+    padding: 10px;
+    border:1px #ddd solid
+}
+
+#contactform textarea{
+    height: 200px;
+}
+
+#contactform input:focus,
+#contactform textarea:focus {
+   outline: none;
+   border-color: #f7c08a;
+    
+}
